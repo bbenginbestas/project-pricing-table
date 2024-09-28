@@ -11,18 +11,21 @@
     <style>
       body {
         font-family: "Sono", sans-serif;
+        background-color: aliceblue;
       }
 
       .pricing-container {
         display: inline-flex;
         gap: 10px;
         flex-wrap: no-wrap;
-        
+        flex-direction: row;
+        flex-basis: 700px;
       }
 
       .pricing-plan {
         background-color: bisque;
-        flex-basis: 40%;
+        flex-basis: 700px;
+        justify-content: center;
       }
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
